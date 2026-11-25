@@ -1,6 +1,6 @@
 # Módulo 2 · Sistema de alerta para flota vehicular
 
-**Estudiante: Victor Camilo Jimenez Vargas**
+**Estudiante: Victor Jimenez**
 
 El servicio recibe posiciones y emergencias en `POST /events`. Cada respuesta 200 identifica un evento guardado en SQLite. Un trabajador independiente busca emergencias pendientes y entrega el aviso a la API de Gmail por HTTPS. Durante el ensayo, el trabajador envía el aviso a un receptor SMTP local.
 

@@ -1,11 +1,11 @@
 #include "estilo.typ"
 #import "diagrama.typ": flujo
-#set document(title: "Sistema de alerta para flota vehicular", author: "Victor Camilo Jimenez Vargas")
+#set document(title: "Sistema de alerta para flota vehicular", author: "Victor Jimenez")
 #set text(font: "Times New Roman", size: 11pt, lang: "es")
 #set page(paper: "a4", margin: 23mm, numbering: "1")
 = Sistema de alerta para flota vehicular
 *Módulo 2 · Reto de arquitectura* \
-Estudiante: Victor Camilo Jimenez Vargas \
+Estudiante: Victor Jimenez \
 Diplomado en Arquitectura de Software y Cloud Computing · 24 de noviembre de 2026
 
 Este informe evalúa si una sola instancia puede registrar la carga de la flota y avisar a tiempo de una emergencia. La prueba permite seguir el evento desde el generador de carga k6 hasta el receptor local de correo. La llegada al buzón personal requiere una medición adicional durante la demostración.

@@ -1,5 +1,5 @@
 #import "diagrama.typ": flujo
-#set document(title: "Demostración del sistema de alerta", author: "Victor Camilo Jimenez Vargas")
+#set document(title: "Demostración del sistema de alerta", author: "Victor Jimenez")
 #set page(width: 280mm, height: 158mm, margin: (x: 19mm, y: 14mm), numbering: "1")
 #set text(font: "Arial", size: 18pt, lang: "es")
 #set par(leading: 0.55em)
@@ -7,7 +7,7 @@
 = Una emergencia entre 1.000 eventos
 *Módulo 2 · Sistema de alerta para flota vehicular*
 
-Estudiante: Victor Camilo Jimenez Vargas
+Estudiante: Victor Jimenez
 
 El generador de carga k6 simula las posiciones y emergencias de la flota durante una ventana de 30 segundos. Cuando llega un evento de tipo Emergency, el operador necesita saber qué vehículo requiere atención.
 

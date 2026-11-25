@@ -1,0 +1,12 @@
+---------- MESSAGE FOLLOWS ----------
+b'From: fleet@example.invalid'
+b'To: receiver@example.invalid'
+b'Subject: Fleet Emergency alert #999'
+b'Content-Transfer-Encoding: 7bit'
+b'Date: Tue, 24 Nov 2026 22:20:30 +0000'
+b'X-Peer: 127.0.0.1'
+b''
+b'Emergency event received at 2026-11-24T22:20:30.192Z UTC.'
+b'Vehicle: ABC-099'
+b'Status: PANIC'
+------------ END MESSAGE ------------

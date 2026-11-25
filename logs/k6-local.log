@@ -1,0 +1,41 @@
+time="2026-11-24T17:20:30-05:00" level=info msg="final_emergency_request 2026-11-24T22:20:30.192Z id=999" source=console
+
+
+  █ THRESHOLDS 
+
+    checks
+    ✓ 'rate==1' rate=100.00%
+
+    http_req_failed
+    ✓ 'rate==0' rate=0.00%
+
+    iterations
+    ✓ 'count==1000' count=1000
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 1000    40.907217/s
+    checks_succeeded...: 100.00% 1000 out of 1000
+    checks_failed......: 0.00%   0 out of 1000
+
+    ✓ status 200
+
+    HTTP
+    http_req_duration..............: avg=3.56ms   min=518µs    med=1.74ms   max=127.41ms p(90)=6.05ms   p(95)=12.08ms 
+      { expected_response:true }...: avg=3.56ms   min=518µs    med=1.74ms   max=127.41ms p(90)=6.05ms   p(95)=12.08ms 
+    http_req_failed................: 0.00%  0 out of 1000
+    http_reqs......................: 1000   40.907217/s
+
+    EXECUTION
+    iteration_duration.............: avg=244.27ms min=240.67ms med=242.69ms max=369.71ms p(90)=246.56ms p(95)=252.54ms
+    iterations.....................: 1000   40.907217/s
+    vus............................: 10     min=10        max=10
+    vus_max........................: 10     min=10        max=10
+
+    NETWORK
+    data_received..................: 119 kB 4.9 kB/s
+    data_sent......................: 240 kB 9.8 kB/s
+
+
+

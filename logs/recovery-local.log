@@ -1,0 +1,6 @@
+2026-11-24T22:24:34.477Z listening 127.0.0.1:8082
+2026-11-24T22:24:46.096Z emergency_received id=1
+2026-11-24T22:24:46.098Z delivery_failed id=1 retry_in_seconds=5 error=Connection error: Connection refused (os error 61)
+2026-11-24T22:24:51.096Z delivery_failed id=1 retry_in_seconds=5 error=Connection error: Connection refused (os error 61)
+2026-11-24T22:24:53.489Z listening 127.0.0.1:8082
+2026-11-24T22:24:56.104Z smtp_accepted id=1

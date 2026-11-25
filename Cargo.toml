@@ -1,0 +1,16 @@
+[package]
+name = "fleet-alert"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+base64 = "0.22"
+ureq = { version = "3", features = ["json"] }
+axum = "0.8"
+chrono = "0.4"
+lettre = { version = "0.11", default-features = false, features = ["builder", "smtp-transport", "rustls-tls"] }
+rusqlite = { version = "0.37", features = ["bundled"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "net"] }
+dotenvy = "0.15.7"
